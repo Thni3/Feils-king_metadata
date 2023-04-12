@@ -1,4 +1,6 @@
+import logging
 
+logging.basicConfig(filename= "oppg1.log", level=logging.DEBUG, format= '%(asctime)s - %(levelname)s - %(message)s')
 def sum(num1, num2, num3):
     try: return num1 +num2 +num3
     except TypeError:
